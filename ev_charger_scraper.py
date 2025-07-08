@@ -22,11 +22,11 @@ def clean_text(text):
     return text
 
 def extract_brand(text):
-    """Extract charger brand from comment text. List includes home chargepoint brands available in UK and EU as of 2025."""
+    """Extract charger brand from comment text. List includes home chargepoint brands available in UK and EU as of 2025 and common misspellings."""
     brands = [
-        'Hypervolt', 'Ohme', 'Zappi', 'Project EV', 'Pod Point', 'Wallbox', 'Easee', 
+        'Hypervolt', 'Hypervault', 'Ohme', 'Zappi', 'Project EV', 'Pod Point', 'Wallbox', 'Easee',
         'Rolec', 'EO Charging', 'Andersen', 'Anderson', 'SyncEV', 'Alfen', 'EVBox', 'ChargePoint', 
-        'Tesla', 'ABB', 'Garo', 'NewMotion', 'Shell Recharge', 'Connected Kerb',  
+        'Tesla', 'ABB', 'Garo', 'NewMotion', 'Shell Recharge', 'Connected Kerb', 'Hive', 'EVEC',
         'Simpson & Partners', 'Simpson', 'PodPoint', 'myenergi', 'myenergy', 'NexBlue', 'GivEnergy', 'Indra'
     ]
     for brand in brands:
