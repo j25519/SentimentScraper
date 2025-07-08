@@ -1,6 +1,8 @@
 # SentimentScraper
 Custom Python script to aggregate public data from online discussion boards regarding home EV chargers.
 
+Takes an input of a list of URLs and outputs a CSV.
+
 Utilises different logic for generic forum posts and Reddit posts. Converts Reddit links to old.reddit.com URLs for easier scraping.
 
 # Usage
